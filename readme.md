@@ -17,7 +17,7 @@ A collection of Python Scripts to learn the basics programming with Python.
 
 ## Topics
 1. Hello World Examples
-    - [Hello World](HellowWorld.py)
+    - [Hello World](./HelloWorld.py)
 2. Variables, Data Types, Inputs
 3. Operators, Numerical, Relational, Boolean
 4. If-Else statement (branching)
