@@ -32,10 +32,11 @@ A collection of Python Scripts to learn the basics programming with Python.
 13. Inheritance
 
 ## Exercises and solutions
-1. BMI Calculator Application
-2. Chinese Zodiac Calculator Application
-3. Password Generator Application
-4. Poker Game
+1. [Calculator CLI](./CalculatorCLI/)
+2. BMI Calculator Application
+3. Chinese Zodiac Calculator Application
+4. Password Generator Application
+5. Poker Game
 
 ## Project Exercises and solutions
 1. National Lottery Application
