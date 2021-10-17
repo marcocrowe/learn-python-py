@@ -3,7 +3,7 @@
 A collection of Python Scripts to learn the basics programming with Python.
 
 ## Requirements
-- [Python >= 3.8.8](https://www.python.org/downloads/)
+- [Python >= 3.10.0](https://www.python.org/downloads/)
 
 ## Recommended IDEs
 - [VS Code](https://code.visualstudio.com/): [`Python`](https://code.visualstudio.com/docs/languages/python)
