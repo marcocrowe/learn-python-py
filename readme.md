@@ -22,7 +22,7 @@ A collection of Python Scripts to learn the basics programming with Python.
 ## Topics
 
 1. Hello World Examples
-    - [Hello World](./HelloWorld.py)
+    - [Hello World](./hello_world.py)
 2. Variables, Data Types, Inputs
 3. Operators, Numerical, Relational, Boolean
 4. If-Else statement (branching)
@@ -38,7 +38,7 @@ A collection of Python Scripts to learn the basics programming with Python.
 
 ## Exercises and solutions
 
-1. [Calculator CLI](./CalculatorCLI/)
+1. [Calculator CLI](./CalculatorCLI/calculator_cli.py/)
 2. BMI Calculator Application
 3. Chinese Zodiac Calculator Application
 4. Password Generator Application
