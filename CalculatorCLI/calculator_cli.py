@@ -1,6 +1,6 @@
 """
 Copyright © 2024 Mark Crowe <https://github.com/marcocrowe>. All rights reserved.
-Hello World
+A Command Line Interface (CLI) Calculator Program1
 """
 
 
@@ -22,7 +22,7 @@ class CalculatorCLI:
         if divisor == 0:
             print("Division by 0 is not defined.")
         else:
-            print("{} / {} = {}".format(dividend, divisor, dividend / divisor))
+            print(f"{dividend} / {divisor} = {dividend / divisor}")
 
     @staticmethod
     def get_float_input(text: str = "Enter Number: ") -> float:
@@ -74,29 +74,27 @@ class CalculatorCLI:
 
     def multiply(self):
         """Multiplies a series of numbers"""
-        count = self.get_int_input("How many number do you want to multiply: ")
-        product = 1.0
+        count: int = self.get_int_input("How many number do you want to multiply: ")
+        product: float = 1.0
         for number in range(count):
             product *= self.get_float_input(
-                "Enter multiplier number {} of {}: ".format(number + 1, count)
+                f"Enter multiplier number {number + 1} of {count}: "
             )
-        print("Product = {}".format(product))
+        print(f"Product = {product}")
 
     def subtract(self):
         """Subtracts a number from another number"""
         minuend = self.get_float_input("Enter Minuend number: ")
         subtrahend = self.get_float_input("Enter Subtrahend number: ")
-        print("{} - {} = {}".format(minuend, subtrahend, minuend - subtrahend))
+        print(f"{minuend} - {subtrahend} = {minuend - subtrahend}")
 
     def sum(self):
         """Sums a series of numbers"""
-        count = self.get_int_input("How many number do you want to sum: ")
-        sum = 0.0
+        count: int = self.get_int_input("How many number do you want to sum: ")
+        the_sum: float = 0.0
         for number in range(count):
-            sum += self.get_float_input(
-                "Enter number {} of {}: ".format(number + 1, count)
-            )
-        print("Sum = {}".format(sum))
+            the_sum += self.get_float_input(f"Enter number {number + 1} of {count}: ")
+        print(f"Sum = {the_sum}")
 
     def run(self):
         """Runs the calculator"""
@@ -119,6 +117,11 @@ class CalculatorCLI:
                     print("Invalid Choice:", command_code)
 
 
-calculatorCLI = CalculatorCLI()
+def main():
+    """Runs the calculator"""
+    calculator_cli = CalculatorCLI()
+    calculator_cli.run()
 
-calculatorCLI.run()
+
+if __name__ == "__main__":
+    main()
