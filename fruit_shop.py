@@ -30,7 +30,7 @@ def calculate_and_display_price(apple_trays: int, banana_kgs: float, pears_trays
     print(f"The price of {apple_trays} apples, {banana_kgs} bananas and {pears_trays} pears is €{total:.2f}")
 
 
-def main()->None:
+def main() -> None:
     """The main function"""
 
     calculate_and_display_price(1, 2,1)
