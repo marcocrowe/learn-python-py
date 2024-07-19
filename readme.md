@@ -1,5 +1,5 @@
 
-# [Learn to Code with Python](https://github.com/marcocrowe/learn-python-py)/)
+# [Learn to Code with Python](https://github.com/marcocrowe/learn-python-py)
 
 A collection of Python Scripts to learn the basics programming with Python.
 
