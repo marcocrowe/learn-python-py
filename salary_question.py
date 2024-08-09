@@ -21,7 +21,6 @@ OVERTIME_PAY_RATE = STANDARD_PAY_RATE * OVERTIME_MODIFIER
 TAX_RATE = .2
 STANDARD_PAY_HOURS = 40
 
-
 def main() -> None:
     """Main function"""
     hours = 50
