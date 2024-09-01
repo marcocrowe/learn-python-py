@@ -45,4 +45,4 @@ Count and display how many of the following words [no, dice, log, echo] appear i
 
 ### Question 5.6 (7 Marks)
 
-Write a program that accepts a number of days e.g 18 as input (from keyboard) and converts that value to weeks and days. For example, 18 days would convert to 2 weeks and 4 days. The output should be in the format “18 days is equal to 2 weeks and 4 days”.  Hint: use modulo division % and floor division //  .
+Write a program that accepts a number of days e.g 18 as input (from keyboard) and converts that value to weeks and days. For example, 18 days would convert to 2 weeks and 4 days. The output should be in the format `18 days is equal to 2 weeks and 4 days`.  Hint: use modulo division % and floor division //  .
